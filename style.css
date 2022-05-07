@@ -1,0 +1,84 @@
+#My-Portfolio{
+  backround-color: orange ;
+  
+}
+#navbar{
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color:#FF4500;
+  width: 100%;
+  
+}
+#navbar-links{
+  display: flex;
+  justify-content: flex-end;
+}
+#navbar-links li{
+  list-style: none;
+}
+#navbar-links li a{
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}
+#welcome-section{
+  display: flex;
+ position: static; 
+  height: 100vh;
+ 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+#welcome-image{
+  border-radius: 150%; 
+  margin-top: 120px;
+  justify-contet: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+#welcome{
+  color:darkred ;
+ 
+   font-size: 55px;
+    margin-bottom: 10px;
+}
+#welcome-title{
+  color: #800000;
+  font-style: italic;
+  font-sixe: 20px;
+  margin-bottom: 120px;
+  margin-top: 0;
+}
+#projects{
+
+  background-color: #8B4513;
+  text-align: center;
+}
+#projects-grid{
+  display: grid;
+  grid-template-columns:50% auto 50%;
+}
+#projects-grid a{
+  text-decoration: none;
+  color: white;
+  font-style: san-serif;
+  font-size: 20px;
+}
+#projects-section-header{
+  
+  color: white;
+  font-sixe: 40px;
+}
+
+@media only screen and(max-width: 1000px){
+  #navbar-links{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
